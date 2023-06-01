@@ -1,38 +1,42 @@
 body {
-  font-family: "Raleway", sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/KIP-Night-Jungle-1.jpg.optimal.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+	background-image: url("../img/pexels-miguel-á-padriñán-255379.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
+.imgjm {
+	float: left; /* Hace que la imagen flote a la izquierda */
+	margin-right: 10px; /* Margen derecho para separar la imagen del texto */
+}
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+#Portafolio .image-top {
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#Educacion {
 }
 
 /* Contacto */
 
 #Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
+	font-weight: 700;
+	color: #373a3c;
 }
 
 @media (max-width: 768px) {
-  #Contacto form label {
-    font-weight: 400;
-  }
+	#Contacto form label {
+		font-weight: 400;
+	}
 
-  .navbar-brand {
-    width: 100px;
-  }
+	.navbar-brand {
+		width: 100px;
+	}
 }
