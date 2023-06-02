@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+* {
+	font-family: "Roboto", sans-serif;
+}
+/* body  */
+
+header {
+	background-image: url("../img/pexels-miguel-á-padriñán-255379.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imgFirst {
+	object-fit: cover;
+}
+
+.Educacion {
+	background-color: azure;
+	margin: auto;
+}
+
+.Portafolio .image-top {
+	height: 250px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+}
+
+.exp {
+	background-color: azure;
+	margin: auto;
+}
