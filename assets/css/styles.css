@@ -17,6 +17,10 @@ header {
 	background-color: azure;
 	margin: auto;
 }
+ul {
+	list-style-position: inside;
+	padding-left: 0;
+}
 
 .Portafolio .image-top {
 	height: 250px;
