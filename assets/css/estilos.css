@@ -2,9 +2,7 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
-/* Hero Section */
-
-#Hero-Section {
+header {
 	background-image: url("../img/pexels-miguel-á-padriñán-255379.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -13,22 +11,21 @@ body {
 	float: left; /* Hace que la imagen flote a la izquierda */
 	margin-right: 10px; /* Margen derecho para separar la imagen del texto */
 }
-/* Mis trabajos */
 
-#Portafolio .image-top {
+.Portafolio .image-top {
 	height: 250px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
-#Educacion {
+
+.imgFirst {
+	object-fit: cover;
 }
 
-/* Contacto */
-
-#Contacto form label {
-	font-weight: 700;
-	color: #373a3c;
+.exp {
+	display: flex;
+	justify-content: space-between;
 }
 
 @media (max-width: 768px) {
