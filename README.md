@@ -1,6 +1,10 @@
+# link a mi repositorio
+
+https://github.com/chesib/chesib.github.io
+
 # Link a mi pagina
 
-## http://chesib.github.io
+http://chesib.github.io
 
 # repositorios a los que les hice forks
 
